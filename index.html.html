@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+    <title>Welcome to Minion Explorer</title>
+  </head>
+
+  <body data-spy="scroll" data-target="#website-navbar" data-offset="100">
+    <nav id="website-navbar" class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+        <a class="navbar-brand">
+            <img src="img/icon.png">
+            Minions Explorer
+        </a>
+        <div class="navbar-content">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#title-text">
+                        Top of Page </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#main-picture">
+                        Minions Movies </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#other-items">
+                        Production Company </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                        About Minions </a>
+                    <div class="dropdown-menu dropdown-menu-left text-center">
+                        <a class="dropdown-item" href="#minionese"> Minions Languange </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#villain"> Villians List </a>
+                        <a class="dropdown-item" href="#timeline-row"> Movies' Plot </a>
+                    </div>
+                </li>
+            </ul>
+        </div>  
+    </nav>
+
+    <div class="container">
+        <div class="row mx-3 mt-3" id="title-text">
+            <div class="col-md-12">
+                <!-- <h1 class="text-center p-3">Welcome to Singapore</h1> -->
+                <br>
+                <!-- Title Jumbotron -->
+                <div class="jumbotron">
+                    <div class="row mx-5">
+                        <div class="col-3">
+                            <img src="img/icon.png" height="200px">
+                        </div>
+                        <div class="col pt-5 text-center font-weight-bold">
+                            <!--
+                            <h1 class="display-4">Welcome to <span class="badge badge-danger">Singapore</span></h1>
+                            <h4>A <span class="badge badge-warning badge-pill">sunny</span> island in Southeast Asia!</h4>
+                            -->
+                            <h1 class="badge badge-warning" style="font-size: 50px; color: white;"> Minions </h1>
+                            <h4 style="font-style: italic;"> "They're all different. But they all share the same goal.<br>To serve the most despicable master they could find." </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <hr>
+
+        <div class="row" id="main-picture">
+            <div class="col-md-12">
+                <!-- <img src="assets/landmarks/landmark_1.jpg" alt="" style="width: 100%"> -->
+                <div class="alert alert-info alert-dismissible fade show" style="background-color: rgb(255, 217, 0); color: red;">
+                    <button type="button" class="close" data-dismiss="alert"> &times; </button>
+                    This site was created by a despicable boss.
+                </div>
+                
+                <div id="landmarks-carousel" class="carousel slide" data-ride="carousel">    
+                    <h1 style="color: darkblue;"> Minions Movies : </h1>
+                    <!-- Carousel Items -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/movie1.png">
+                            <div class="carousel-caption">
+                                <h1>Despicable Me</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/movie2.png">
+                            <div class="carousel-caption">
+                                <h1>Despicable Me 2</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/movie3.png">
+                            <div class="carousel-caption">
+                                <h1>Despicable Me 3</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/movie4.png">
+                            <div class="carousel-caption">
+                                <h1>Minions</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/movie5.png">
+                            <div class="carousel-caption">
+                                <h1>Minions: The Rise of Gru</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <a class="carousel-control-prev" href=#landmarks-carousel data-slide="prev">
+                        <span class="fa fa-chevron-left"></span>
+                    </a>
+                    <a class="carousel-control-next" href=#landmarks-carousel data-slide="next">
+                        <span class="fa fa-chevron-right"></span>
+                    </a>
+
+                    <!-- Carousel Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#landmarks-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#landmarks-carousel" data-slide-to="1"></li>
+                        <li data-target="#landmarks-carousel" data-slide-to="2"></li>
+                        <li data-target="#landmarks-carousel" data-slide-to="3"></li>
+                        <li data-target="#landmarks-carousel" data-slide-to="4"></li>
+                    </ol>
+                </div>
+            </div>
+        </div> <hr>
+
+        <div class="row my-5 " id="icons">
+            <div class="col-md-3 text-center">
+                <h4>Stuart</h4>
+                <div class="zoom">
+                    <img src="img/stuart.png" alt="Stuart" style="width: 150px" >
+                </div>
+                <!-- <p>View Our Attractions</p> -->
+                <!--<a href="https://www.tripadvisor.com.sg/Attractions-g294265-Activities-Singapore.html" class="btn btn-primary" style="width: 180px">
+                    Visit Our Attractions
+                </a>-->
+            </div>
+            <div class="col-md-3 text-center">
+                <h4>Kevin</h4>
+                <div class="zoom">
+                    <img src="img/kevin.png" alt="Kevin" style="width: 150px" >
+                </div>
+                <!-- <p>Book a Hotel</p> -->
+                <!--<a href="https://www.agoda.com/en-sg/country/singapore.html?cid=1729675&tag=240682_ae04376884622f53a3e9bd62df524bd6" class="btn btn-primary" style="width: 120px">
+                    Book a Hotel
+                </a>-->
+            </div>
+            <div class="col-md-3 text-center">
+                <h4>Bob</h4>
+                <div class="zoom">
+                    <img src="img/bob.png" alt="Bob" style="width: 150px" >
+                </div>
+                <!-- <p>Explore Local Food</p> -->
+                <!--<a href="https://migrationology.com/singapore-food/" class="btn btn-primary" style="width: 165px">
+                    Explore Local Food
+                </a>-->
+            </div>
+            <div class="col-md-3 text-center">
+                <h4>Otto</h4>
+                <div class="zoom">
+                    <img src="img/otto.png" alt="Otto" style="width: 150px" >
+                </div>
+                <!-- <p>Explore Local Food</p> -->
+                <!--<a href="https://migrationology.com/singapore-food/" class="btn btn-primary" style="width: 165px">
+                    Explore Local Food
+                </a>-->
+            </div>
+        </div> <hr>
+
+        <div class="row p-5" id="other-items">
+            <div class="col-md-6 text-center p-4" style="background-color: rgb(255, 227, 100);">
+                <h3>Minions movies produced <br>by <span class="badge badge-danger">Illumination Entertainment</span></h3>
+                <img src="img/illumination.png" alt="Illumination Entertainment" style="width: 100%" class="p-3">
+                <a href="https://www.illumination.com/" target="_blank"><p style="color: red;">About Us</p></a>
+            </div>
+            <div class="col-md-6 text-center p-4" style="background-color: rgb(100, 201, 255)">
+                <h3><span class="badge badge-danger">Minion Park</span><br>in Universal Studios Japan</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.617694153295!2d135.43019696523132!3d34.664356730443906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e891557807a1%3A0xdd2bbbfebc0cff8c!2sMinion%20Park!5e0!3m2!1sen!2ssg!4v1660118018437!5m2!1sen!2ssg" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div> <hr>
+
+        <div class="row py-3" id="villain">
+            <div class="col-md-12 villain-gallery">
+                <h2 class="villain-gallery-title">Villians in Minions Movies</h2>
+
+                <div class="card-deck">
+                    <div class="card bg-danger">
+                        <img class="card-img-top" src="img/vector.png">
+                        <div class="card-body">
+                            <h4 class="card-title text-warning">Victor Perkins<br><h6 style="font-style: italic;">from Despicable Me</h6></h4>
+                            <p class="card-text">
+                                Highly intelligent, but overly confident and exceedingly arrogant.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card bg-success">
+                        <img class="card-img-top" src="img/el_macho.png">
+                        <div class="card-body">
+                            <h4 class="card-title text-warning">El Macho<br><h6 style="font-style: italic;">from Despicable Me 2</h6></h4>
+                            <p class="card-text">
+                                A renowned bank robber with super-human strength.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card bg-info">
+                        <img class="card-img-top" src="img/bratt.png">
+                        <div class="card-body">
+                            <h4 class="card-title text-warning">Balthazar Bratt<br><h6 style="font-style: italic;">from Despicable Me 3</h6></h4>
+                            <p class="card-text">
+                                A pure megalomaniac and psychopath with 100% egotism.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card bg-primary">
+                        <img class="card-img-top" src="img/scarlet.png">
+                        <div class="card-body">
+                            <h4 class="card-title text-warning">Scarlet Overkill<br><h6 style="font-style: italic;">from Minions</h6></h4>
+                            <p class="card-text">
+                                Witty, humorous, and domineering person.
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="card-deck mt-5 mx-auto text-center" style="width: 450px;">
+                    <div class="card bg-dark">
+                        <img class="card-img-top" src="img/The_Vicious_6.png">
+                        <div class="card-body">
+                            <h4 class="card-title text-warning">Vicious 6<br><h6 style="font-style: italic;">from Minions: The Rise of Gru</h6></h4>
+                            <p class="card-text">
+                                Notorious team of supervillains.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div> <hr>
+
+        <div class="row py-3" id="minionese">
+            <div class="col-md-12">
+                <h1><span class="badge badge-warning" style="color: darkblue;">
+                    Minionese </span></h1>
+                <table class="table table-borderless table-hover" style="text-align: center; font-size: x-large;">
+                    <thead style="background-color: rgb(255, 227, 100); color: rgb(0, 105, 217);">
+                        <tr>
+                            <th> No. </th>
+                            <th class="w-50"> Minion Languange </th>
+                            <th> Audio </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> 1. </td>
+                            <td> 
+                                <a href="#minionese" data-toggle="popover" data-container="body" data-content="Hello!" data-placement="right" title="English Translation" data-trigger="hover">
+                                    Bello!
+                                </a>
+                            </td>
+                            <td>
+                                <audio controls>
+                                    <source src="sound/hello.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> 2. </td>
+                            <td>
+                                <a href="#minionese" data-toggle="popover" data-container="body" data-content="Fire!" data-placement="right" title="English Translation" data-trigger="hover">
+                                    Bee Do! (repeatedly)
+                                </a>
+                            </td>
+                            <td>
+                                <audio controls>
+                                    <source src="sound/fire.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> 3. </td>
+                            <td>
+                                <a href="#minionese" data-toggle="popover" data-container="body" data-content="Apple" data-placement="right" title="English Translation" data-trigger="hover">
+                                    Bable
+                                </a>
+                            </td>
+                            <td>
+                                <audio controls>
+                                    <source src="sound/apple.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> 4. </td>
+                            <td>
+                                <a href="#minionese" data-toggle="popover" data-container="body" data-content="Toy" data-placement="right" title="English Translation" data-trigger="hover" style="font-style: italic; color: darkblue; font-weight: 900;">
+                                    Baboi
+                                </a>
+                            </td>
+                            <td>
+                                <audio controls>
+                                    <source src="sound/toy.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-md-12 text-center">
+                <button type="button" class="btn btn-primary btn-sm btn-block minion_languange" data-toggle="collapse" data-target="#minion_languange" style="font-weight: 500;">
+                    Show More Minion Languange </button>
+                <div id="minion_languange" class="collapse">
+                    <table class="table table-bordered table-hover">
+                        <thead style="text-align: center;">
+                            <tr>
+                                <th> No. </th>
+                                <th class="w-50"> Minion Languange </th>
+                                <th> No. </th>
+                                <th class="w-50"> Minion Languange </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="table_numbering"> 1. </td>
+                                <td> 
+                                    <a href="#minionese" data-toggle="popover" data-container="body" data-content="Goodbye!" data-placement="right" title="English Translation" data-trigger="hover">
+                                        Poopaye!
+                                    </a>
+                                </td>
+                                <td id="table_numbering"> 2. </td>
+                                <td> 
+                                    <a href="#minionese" data-toggle="popover" data-container="body" data-content="Thank you!" data-placement="right" title="English Translation" data-trigger="hover">
+                                        Bank yu!
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="table_numbering"> 3. </td>
+                                <td>
+                                    <a href="#minionese" data-toggle="popover" data-container="body" data-content="I'm hungry!" data-placement="right" title="English Translation" data-trigger="hover">
+                                        Me want banana!
+                                    </a>
+                                </td>
+                                <td id="table_numbering"> 4. </td>
+                                <td>
+                                    <a href="#minionese" data-toggle="popover" data-container="body" data-content="I hate you!" data-placement="right" title="English Translation" data-trigger="hover">
+                                        Tatata bala tu!
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="table_numbering"> 5. </td>
+                                <td>
+                                    <a href="#minionese" data-toggle="popover" data-container="body" data-content="I'm sorry" data-placement="right" title="English Translation" data-trigger="hover">
+                                        Ditto
+                                    </a>
+                                </td>
+                                <td id="table_numbering"> 6. </td>
+                                <td>
+                                    <a href="#minionese" data-toggle="popover" data-container="body" data-content="Stop!" data-placement="right" title="English Translation" data-trigger="hover">
+                                        Stopa!
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div> <hr>
+
+        <!--
+        <div class="row pb-3" id="national-anthem">
+            <div class="col-md-12 text-center mb-3 py-1" style="border: 1px solid">
+                <h1><a href="#" data-toggle="tooltip" data-placement="top" title="<h4><em>Majulah Singapura</em></h4>" data-html="true"> National Anthem </a> of Singapore </h1>
+            </div>
+
+
+
+            <div class="col-md-7 text-center">
+                <div id="anthem-accordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="mb-0"><button type="button" class="btn btn-link btn-lg" data-toggle="collapse" data-target="#english-anthem-body"> Click Here For National Anthem in English </button></h2>
+                        </div>
+                        <div id="english-anthem-body" class="card-body anthem-body collapse" data-parent="#anthem-accordion">
+                            <p> Come, fellow Singaporeans; Let us progress towards happiness together </p>
+                            <p> May our noble aspiration bring; Singapore success </p>
+                            <p> Come, let us unite; In a new spirit </p>
+                            <p> Let our voices soar as one; Onward Singapore! Onward Singapore </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="mb-0"><button type="button" class="btn btn-link btn-lg" data-toggle="collapse" data-target="#chinese-anthem-body"> Click Here For National Anthem in Chinese </button></h2>
+                        </div>
+                        <div id="chinese-anthem-body" class="card-body anthem-body collapse" data-parent="#anthem-accordion">
+                            <p> 来吧，新加坡人民，让我们共同向幸福迈进；</p>
+                            <p> 我们崇高的理想，要使新加坡成功。</p>
+                            <p> 来吧，让我们以新的精神，团结在一起；</p>
+                            <p> 我们齐声欢呼：前进吧，新加坡！前进吧，新加坡！</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-5 text-center">
+                <button type="button" class="btn btn-danger btn-lg malay-anthem-btn" data-toggle="collapse" data-target="#malay-anthem-body">
+                    National Anthem (Malay) </button>
+                <div id="malay-anthem-body" class="collapse">
+                    <p> Mari kita rakyat Singapura </p>
+                    <p> Sama-sama menuju bahagia </p>
+                    <p> Cita-cita kita yang mulia; Berjaya Singapura </p>
+                    <p> Marilah kita bersatu; Dengan semangat yang baru </p>
+                    <p> Semua kita berseru </p>
+                    <p> Majulah Singapura! Majulah Singapura </p>
+                </div>
+            </div>
+        </div>
+        -->
+
+        <div class="row pb-3" id="timeline-row">
+
+            <div class="history-modals">
+                <div class="modal fade" id="modal-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold text-warning"> Despicable Me </h5>
+                            </div>
+                            <div class="modal-body" style="text-align: justify ; color: black;">
+                                <p> Supervillain Gru, a man who delights in all things wicked, hatches a plan to steal the moon. Surrounded by an army of little yellow minions and his impenetrable arsenal of weapons and war machines, Gru prepares to vanquish all who stand in his way. However, nothing in his calculations and groundwork has prepared him for his greatest challenge: three adorable orphan girls who want to make him their dad. </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal"> Close </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modal-2">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold text-warning"> Despicable Me 2 </h5>
+                            </div>
+                            <div class="modal-body" style="text-align: justify ; color: black;">
+                                <p> Now that Gru has forsaken a life of crime to raise Margo, Agnes and Edith, he's trying to figure out how to provide for his new family. As he struggles with his responsibilities as a father, the Anti-Villain League, an organization dedicated to fighting evil, comes calling. The AVL sends Gru on a mission to capture the perpetrator of a spectacular heist, for who would be better than the world's greatest ex-villain to capture the individual who seeks to usurp his power. </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal"> Close </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modal-3">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold text-warning"> Minions </h5>
+                            </div>
+                            <div class="modal-body" style="text-align: justify ; color: black;">
+                                <p> Evolving from single-celled yellow organisms at the dawn of time, Minions live to serve, but find themselves working for a continual series of unsuccessful masters, from T. Rex to Napoleon. Without a master to grovel for, the Minions fall into a deep depression. But one minion, Kevin, has a plan; accompanied by his pals Stuart and Bob, Kevin sets forth to find a new evil boss for his brethren to follow. Their search leads them to Scarlet Overkill, the world's first-ever super-villainess. </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal"> Close </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modal-4">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold text-warning"> Despicable Me 3 </h5>
+                            </div>
+                            <div class="modal-body" style="text-align: justify ; color: black;">
+                                <p> The mischievous Minions hope that Gru will return to a life of crime after the new boss of the Anti-Villain League fires him. Instead, Gru decides to remain retired and travel to Freedonia to meet his long-lost twin brother for the first time. The reunited siblings soon find themselves in an uneasy alliance to take down the elusive Balthazar Bratt, a former 1980s child star who seeks revenge against the world. </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal"> Close </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modal-5">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold text-warning"> Minions: The Rise of Gru </h5>
+                            </div>
+                            <div class="modal-body" style="text-align: justify ; color: black;">
+                                <p> In the 1970s, young Gru tries to join a group of supervillains called the Vicious 6 after they oust their leader -- the legendary fighter Wild Knuckles. When the interview turns disastrous, Gru and his Minions go on the run with the Vicious 6 hot on their tails. Luckily, he finds an unlikely source for guidance -- Wild Knuckles himself -- and soon discovers that even bad guys need a little help from their friends. </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal"> Close </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-12 text-center">
+                <h1 class="display-4 mb-3"> Minions appeared in following movies: </h1>
+            </div>
+            <div class="col-md-12 py-3 timeline">
+                <div class="container left">
+                    <div class="content">
+                    <!-- TEXT GOES HERE -->
+                        <table class="w-100" style="text-align: right;">
+                            <tr>
+                                <td>
+                                    <h2> 9 July 2010 </h2>
+                                    <h3><a href="#" data-toggle="modal" data-target="#modal-1"> Despicable Me </a></h3>
+                                </td>
+                                <td class="w-25"><img src="img/d_me1.jpg" width="100px"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <table class="w-100" style="text-align: left;">
+                            <tr>
+                                <td class="w-25"><img src="img/d_me2.jpg" width="100px"></td>
+                                <td>
+                                    <h2> 3 July 2013 </h2>
+                                    <h3><a href="#" data-toggle="modal" data-target="#modal-2"> Despicable Me 2 </a></h3>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                        <table class="w-100" style="text-align: right;">
+                            <tr>
+                                <td>
+                                    <h2> 10 July 2015 </h2>
+                                    <h3><a href="#" data-toggle="modal" data-target="#modal-3"> Minions </a></h3>
+                                </td>
+                                <td class="w-25"><img src="img/m1.jpg" width="100px"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <table class="w-100" style="text-align: left;">
+                            <tr>
+                                <td class="w-25"><img src="img/d_me3.jpg" width="100px"></td>
+                                <td>
+                                    <h2> 30 June 2017 </h2>
+                                    <h3><a href="#" data-toggle="modal" data-target="#modal-4"> Despicable Me 3 </a></h3>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content">
+                        <table class="w-100" style="text-align: right;">
+                            <tr>
+                                <td>
+                                    <h2> 1 July 2022 </h2>
+                                    <h3><a href="#" data-toggle="modal" data-target="#modal-5"> Minions: The Rise of Gru </a></h3>
+                                </td>
+                                <td class="w-25"><img src="img/m2.jpg" width="100px"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12" style="text-align: center;">
+                <button type="button" class="btn btn-lg" data-toggle="collapse" data-target="#minion_return" style="background-color: rgb(100, 201, 255); font-weight: bold; color: white;">
+                    MINIONS WILL RETURN </button>
+                <div id="minion_return" class="collapse">
+                    <h1 style="font-style: italic;"> Expected to hit theaters on 3 July 2024 </h1>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    -->
+    
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+
+    <footer>
+        <p> Bello! Contents end here. <br>Bank yu for browsing this site.<br>Poopaye! </p>
+    </footer>
+    
+  </body>
+</html>
